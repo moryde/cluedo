@@ -1,0 +1,489 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		63BBDF4618BCBE1E0025ACA0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63BBDF4518BCBE1E0025ACA0 /* Foundation.framework */; };
+		63BBDF4818BCBE1E0025ACA0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63BBDF4718BCBE1E0025ACA0 /* CoreGraphics.framework */; };
+		63BBDF4A18BCBE1E0025ACA0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63BBDF4918BCBE1E0025ACA0 /* UIKit.framework */; };
+		63BBDF5018BCBE1E0025ACA0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 63BBDF4E18BCBE1E0025ACA0 /* InfoPlist.strings */; };
+		63BBDF5218BCBE1E0025ACA0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BBDF5118BCBE1E0025ACA0 /* main.m */; };
+		63BBDF5618BCBE1E0025ACA0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BBDF5518BCBE1E0025ACA0 /* AppDelegate.m */; };
+		63BBDF5918BCBE1E0025ACA0 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63BBDF5718BCBE1E0025ACA0 /* Main_iPhone.storyboard */; };
+		63BBDF5C18BCBE1E0025ACA0 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63BBDF5A18BCBE1E0025ACA0 /* Main_iPad.storyboard */; };
+		63BBDF5F18BCBE1E0025ACA0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BBDF5E18BCBE1E0025ACA0 /* ViewController.m */; };
+		63BBDF6118BCBE1E0025ACA0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63BBDF6018BCBE1E0025ACA0 /* Images.xcassets */; };
+		63BBDF6818BCBE1E0025ACA0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63BBDF6718BCBE1E0025ACA0 /* XCTest.framework */; };
+		63BBDF6918BCBE1E0025ACA0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63BBDF4518BCBE1E0025ACA0 /* Foundation.framework */; };
+		63BBDF6A18BCBE1E0025ACA0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63BBDF4918BCBE1E0025ACA0 /* UIKit.framework */; };
+		63BBDF7218BCBE1E0025ACA0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 63BBDF7018BCBE1E0025ACA0 /* InfoPlist.strings */; };
+		63BBDF7418BCBE1E0025ACA0 /* cluedoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BBDF7318BCBE1E0025ACA0 /* cluedoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		63BBDF6B18BCBE1E0025ACA0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63BBDF3A18BCBE1E0025ACA0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63BBDF4118BCBE1E0025ACA0;
+			remoteInfo = cluedo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		63BBDF4218BCBE1E0025ACA0 /* cluedo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cluedo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		63BBDF4518BCBE1E0025ACA0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		63BBDF4718BCBE1E0025ACA0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		63BBDF4918BCBE1E0025ACA0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		63BBDF4D18BCBE1E0025ACA0 /* cluedo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "cluedo-Info.plist"; sourceTree = "<group>"; };
+		63BBDF4F18BCBE1E0025ACA0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		63BBDF5118BCBE1E0025ACA0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		63BBDF5318BCBE1E0025ACA0 /* cluedo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "cluedo-Prefix.pch"; sourceTree = "<group>"; };
+		63BBDF5418BCBE1E0025ACA0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		63BBDF5518BCBE1E0025ACA0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		63BBDF5818BCBE1E0025ACA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		63BBDF5B18BCBE1E0025ACA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		63BBDF5D18BCBE1E0025ACA0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		63BBDF5E18BCBE1E0025ACA0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		63BBDF6018BCBE1E0025ACA0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		63BBDF6618BCBE1E0025ACA0 /* cluedoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cluedoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		63BBDF6718BCBE1E0025ACA0 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		63BBDF6F18BCBE1E0025ACA0 /* cluedoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "cluedoTests-Info.plist"; sourceTree = "<group>"; };
+		63BBDF7118BCBE1E0025ACA0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		63BBDF7318BCBE1E0025ACA0 /* cluedoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cluedoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		63BBDF3F18BCBE1E0025ACA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63BBDF4818BCBE1E0025ACA0 /* CoreGraphics.framework in Frameworks */,
+				63BBDF4A18BCBE1E0025ACA0 /* UIKit.framework in Frameworks */,
+				63BBDF4618BCBE1E0025ACA0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63BBDF6318BCBE1E0025ACA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63BBDF6818BCBE1E0025ACA0 /* XCTest.framework in Frameworks */,
+				63BBDF6A18BCBE1E0025ACA0 /* UIKit.framework in Frameworks */,
+				63BBDF6918BCBE1E0025ACA0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		63BBDF3918BCBE1E0025ACA0 = {
+			isa = PBXGroup;
+			children = (
+				63BBDF4B18BCBE1E0025ACA0 /* cluedo */,
+				63BBDF6D18BCBE1E0025ACA0 /* cluedoTests */,
+				63BBDF4418BCBE1E0025ACA0 /* Frameworks */,
+				63BBDF4318BCBE1E0025ACA0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		63BBDF4318BCBE1E0025ACA0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63BBDF4218BCBE1E0025ACA0 /* cluedo.app */,
+				63BBDF6618BCBE1E0025ACA0 /* cluedoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		63BBDF4418BCBE1E0025ACA0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				63BBDF4518BCBE1E0025ACA0 /* Foundation.framework */,
+				63BBDF4718BCBE1E0025ACA0 /* CoreGraphics.framework */,
+				63BBDF4918BCBE1E0025ACA0 /* UIKit.framework */,
+				63BBDF6718BCBE1E0025ACA0 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		63BBDF4B18BCBE1E0025ACA0 /* cluedo */ = {
+			isa = PBXGroup;
+			children = (
+				63BBDF5418BCBE1E0025ACA0 /* AppDelegate.h */,
+				63BBDF5518BCBE1E0025ACA0 /* AppDelegate.m */,
+				63BBDF5718BCBE1E0025ACA0 /* Main_iPhone.storyboard */,
+				63BBDF5A18BCBE1E0025ACA0 /* Main_iPad.storyboard */,
+				63BBDF5D18BCBE1E0025ACA0 /* ViewController.h */,
+				63BBDF5E18BCBE1E0025ACA0 /* ViewController.m */,
+				63BBDF6018BCBE1E0025ACA0 /* Images.xcassets */,
+				63BBDF4C18BCBE1E0025ACA0 /* Supporting Files */,
+			);
+			path = cluedo;
+			sourceTree = "<group>";
+		};
+		63BBDF4C18BCBE1E0025ACA0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				63BBDF4D18BCBE1E0025ACA0 /* cluedo-Info.plist */,
+				63BBDF4E18BCBE1E0025ACA0 /* InfoPlist.strings */,
+				63BBDF5118BCBE1E0025ACA0 /* main.m */,
+				63BBDF5318BCBE1E0025ACA0 /* cluedo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		63BBDF6D18BCBE1E0025ACA0 /* cluedoTests */ = {
+			isa = PBXGroup;
+			children = (
+				63BBDF7318BCBE1E0025ACA0 /* cluedoTests.m */,
+				63BBDF6E18BCBE1E0025ACA0 /* Supporting Files */,
+			);
+			path = cluedoTests;
+			sourceTree = "<group>";
+		};
+		63BBDF6E18BCBE1E0025ACA0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				63BBDF6F18BCBE1E0025ACA0 /* cluedoTests-Info.plist */,
+				63BBDF7018BCBE1E0025ACA0 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		63BBDF4118BCBE1E0025ACA0 /* cluedo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63BBDF7718BCBE1E0025ACA0 /* Build configuration list for PBXNativeTarget "cluedo" */;
+			buildPhases = (
+				63BBDF3E18BCBE1E0025ACA0 /* Sources */,
+				63BBDF3F18BCBE1E0025ACA0 /* Frameworks */,
+				63BBDF4018BCBE1E0025ACA0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = cluedo;
+			productName = cluedo;
+			productReference = 63BBDF4218BCBE1E0025ACA0 /* cluedo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		63BBDF6518BCBE1E0025ACA0 /* cluedoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63BBDF7A18BCBE1E0025ACA0 /* Build configuration list for PBXNativeTarget "cluedoTests" */;
+			buildPhases = (
+				63BBDF6218BCBE1E0025ACA0 /* Sources */,
+				63BBDF6318BCBE1E0025ACA0 /* Frameworks */,
+				63BBDF6418BCBE1E0025ACA0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				63BBDF6C18BCBE1E0025ACA0 /* PBXTargetDependency */,
+			);
+			name = cluedoTests;
+			productName = cluedoTests;
+			productReference = 63BBDF6618BCBE1E0025ACA0 /* cluedoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		63BBDF3A18BCBE1E0025ACA0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = Ydefeldt;
+				TargetAttributes = {
+					63BBDF6518BCBE1E0025ACA0 = {
+						TestTargetID = 63BBDF4118BCBE1E0025ACA0;
+					};
+				};
+			};
+			buildConfigurationList = 63BBDF3D18BCBE1E0025ACA0 /* Build configuration list for PBXProject "cluedo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 63BBDF3918BCBE1E0025ACA0;
+			productRefGroup = 63BBDF4318BCBE1E0025ACA0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				63BBDF4118BCBE1E0025ACA0 /* cluedo */,
+				63BBDF6518BCBE1E0025ACA0 /* cluedoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		63BBDF4018BCBE1E0025ACA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63BBDF5C18BCBE1E0025ACA0 /* Main_iPad.storyboard in Resources */,
+				63BBDF6118BCBE1E0025ACA0 /* Images.xcassets in Resources */,
+				63BBDF5918BCBE1E0025ACA0 /* Main_iPhone.storyboard in Resources */,
+				63BBDF5018BCBE1E0025ACA0 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63BBDF6418BCBE1E0025ACA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63BBDF7218BCBE1E0025ACA0 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		63BBDF3E18BCBE1E0025ACA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63BBDF5F18BCBE1E0025ACA0 /* ViewController.m in Sources */,
+				63BBDF5618BCBE1E0025ACA0 /* AppDelegate.m in Sources */,
+				63BBDF5218BCBE1E0025ACA0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63BBDF6218BCBE1E0025ACA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63BBDF7418BCBE1E0025ACA0 /* cluedoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		63BBDF6C18BCBE1E0025ACA0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 63BBDF4118BCBE1E0025ACA0 /* cluedo */;
+			targetProxy = 63BBDF6B18BCBE1E0025ACA0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		63BBDF4E18BCBE1E0025ACA0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63BBDF4F18BCBE1E0025ACA0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		63BBDF5718BCBE1E0025ACA0 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63BBDF5818BCBE1E0025ACA0 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		63BBDF5A18BCBE1E0025ACA0 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63BBDF5B18BCBE1E0025ACA0 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		63BBDF7018BCBE1E0025ACA0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63BBDF7118BCBE1E0025ACA0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		63BBDF7518BCBE1E0025ACA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		63BBDF7618BCBE1E0025ACA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		63BBDF7818BCBE1E0025ACA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "cluedo/cluedo-Prefix.pch";
+				INFOPLIST_FILE = "cluedo/cluedo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		63BBDF7918BCBE1E0025ACA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "cluedo/cluedo-Prefix.pch";
+				INFOPLIST_FILE = "cluedo/cluedo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		63BBDF7B18BCBE1E0025ACA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/cluedo.app/cluedo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "cluedo/cluedo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "cluedoTests/cluedoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		63BBDF7C18BCBE1E0025ACA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/cluedo.app/cluedo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "cluedo/cluedo-Prefix.pch";
+				INFOPLIST_FILE = "cluedoTests/cluedoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		63BBDF3D18BCBE1E0025ACA0 /* Build configuration list for PBXProject "cluedo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63BBDF7518BCBE1E0025ACA0 /* Debug */,
+				63BBDF7618BCBE1E0025ACA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63BBDF7718BCBE1E0025ACA0 /* Build configuration list for PBXNativeTarget "cluedo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63BBDF7818BCBE1E0025ACA0 /* Debug */,
+				63BBDF7918BCBE1E0025ACA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		63BBDF7A18BCBE1E0025ACA0 /* Build configuration list for PBXNativeTarget "cluedoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63BBDF7B18BCBE1E0025ACA0 /* Debug */,
+				63BBDF7C18BCBE1E0025ACA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 63BBDF3A18BCBE1E0025ACA0 /* Project object */;
+}

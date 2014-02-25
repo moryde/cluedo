@@ -22,6 +22,10 @@
 		63BBDF6A18BCBE1E0025ACA0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63BBDF4918BCBE1E0025ACA0 /* UIKit.framework */; };
 		63BBDF7218BCBE1E0025ACA0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 63BBDF7018BCBE1E0025ACA0 /* InfoPlist.strings */; };
 		63BBDF7418BCBE1E0025ACA0 /* cluedoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BBDF7318BCBE1E0025ACA0 /* cluedoTests.m */; };
+		63BBDF7F18BCBE340025ACA0 /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BBDF7E18BCBE340025ACA0 /* Card.m */; };
+		63BBDF8218BCBEFD0025ACA0 /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BBDF8118BCBEFD0025ACA0 /* Deck.m */; };
+		63BBDF8518BCC09D0025ACA0 /* GameModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BBDF8418BCC09D0025ACA0 /* GameModel.m */; };
+		63BBDF8818BCC1280025ACA0 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BBDF8718BCC1280025ACA0 /* Player.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +59,14 @@
 		63BBDF6F18BCBE1E0025ACA0 /* cluedoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "cluedoTests-Info.plist"; sourceTree = "<group>"; };
 		63BBDF7118BCBE1E0025ACA0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		63BBDF7318BCBE1E0025ACA0 /* cluedoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cluedoTests.m; sourceTree = "<group>"; };
+		63BBDF7D18BCBE340025ACA0 /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
+		63BBDF7E18BCBE340025ACA0 /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Card.m; sourceTree = "<group>"; };
+		63BBDF8018BCBEFD0025ACA0 /* Deck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Deck.h; sourceTree = "<group>"; };
+		63BBDF8118BCBEFD0025ACA0 /* Deck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Deck.m; sourceTree = "<group>"; };
+		63BBDF8318BCC09D0025ACA0 /* GameModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameModel.h; sourceTree = "<group>"; };
+		63BBDF8418BCC09D0025ACA0 /* GameModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameModel.m; sourceTree = "<group>"; };
+		63BBDF8618BCC1280025ACA0 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		63BBDF8718BCC1280025ACA0 /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +96,14 @@
 		63BBDF3918BCBE1E0025ACA0 = {
 			isa = PBXGroup;
 			children = (
+				63BBDF7D18BCBE340025ACA0 /* Card.h */,
+				63BBDF7E18BCBE340025ACA0 /* Card.m */,
+				63BBDF8018BCBEFD0025ACA0 /* Deck.h */,
+				63BBDF8118BCBEFD0025ACA0 /* Deck.m */,
+				63BBDF8318BCC09D0025ACA0 /* GameModel.h */,
+				63BBDF8418BCC09D0025ACA0 /* GameModel.m */,
+				63BBDF8618BCC1280025ACA0 /* Player.h */,
+				63BBDF8718BCC1280025ACA0 /* Player.m */,
 				63BBDF4B18BCBE1E0025ACA0 /* cluedo */,
 				63BBDF6D18BCBE1E0025ACA0 /* cluedoTests */,
 				63BBDF4418BCBE1E0025ACA0 /* Frameworks */,
@@ -253,9 +273,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63BBDF8218BCBEFD0025ACA0 /* Deck.m in Sources */,
+				63BBDF8518BCC09D0025ACA0 /* GameModel.m in Sources */,
 				63BBDF5F18BCBE1E0025ACA0 /* ViewController.m in Sources */,
 				63BBDF5618BCBE1E0025ACA0 /* AppDelegate.m in Sources */,
 				63BBDF5218BCBE1E0025ACA0 /* main.m in Sources */,
+				63BBDF8818BCC1280025ACA0 /* Player.m in Sources */,
+				63BBDF7F18BCBE340025ACA0 /* Card.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

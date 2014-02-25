@@ -7,7 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "GameModel.h"
 
 @interface ViewController : UIViewController
+- (IBAction)pickRandomCard:(id)sender;
+@property (weak, nonatomic) IBOutlet UITextView *cardsInDeckTextField;
+@property (weak, nonatomic) IBOutlet UILabel *typeLabel;
+@property (nonatomic) GameModel *gameModel;
 
 @end
